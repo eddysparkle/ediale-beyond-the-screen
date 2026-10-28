@@ -1,0 +1,212 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EDIALE — Beyond the Screen</title>
+  <link rel="stylesheet" href="./style.css">
+</head><body>
+  <div class="universe">
+    <div class="stars"></div>
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div><nav class="navbar">
+  <a href="#" class="logo">EDI<span>A</span>LE<span class="dot">.</span></a>
+  <a href="#contact" class="nav-contact">LET'S CREATE <span>↗</span></a>
+</nav>
+
+<main class="hero">
+  <section class="hero-content">
+    <div class="eyebrow">
+      <span class="status-dot"></span>
+      INDEPENDENT DIGITAL CREATOR
+    </div>
+
+    <h1>
+      BEYOND<br>
+      THE <span class="gradient-text">SCREEN.</span>
+    </h1>
+
+    <p class="intro">
+      I don't just build websites.<br>
+      I create digital experiences that<br>
+      move businesses forward.
+    </p>
+
+    <button class="enter-button" id="enterButton">
+      <span>ENTER THE EXPERIENCE</span>
+      <span class="button-arrow">↗</span>
+    </button>
+
+    <div class="scroll-hint">
+      <span class="scroll-line"></span>
+      SCROLL TO DISCOVER
+    </div>
+  </section>
+
+  <section class="portal-stage" aria-label="Animated digital portal">
+    <div class="portal-label label-top">
+      INTERACTIVE REALITY <span>01</span>
+    </div>
+
+    <div class="portal" id="portal">
+      <div class="portal-halo"></div>
+      <div class="portal-ring ring-one"></div>
+      <div class="portal-ring ring-two"></div>
+      <div class="portal-ring ring-three"></div>
+
+      <div class="portal-core">
+        <div class="core-stars"></div>
+        <div class="core-orb"></div>
+        <div class="core-light"></div>
+      </div>
+
+      <div class="portal-cross cross-one"></div>
+      <div class="portal-cross cross-two"></div>
+    </div>
+
+    <div class="portal-label label-bottom">
+      <span class="pulse-dot"></span>
+      A NEW PERSPECTIVE AWAITS
+    </div>
+
+    <div class="orbit orbit-one"></div>
+    <div class="orbit orbit-two"></div>
+  </section>
+
+  <div class="hero-footer">
+    <span>DESIGNED TO MAKE AN IMPACT.</span>
+    <span>IDEAS <b>×</b> TECHNOLOGY <b>×</b> IMPACT</span>
+  </div>
+</main>
+
+<section class="experience-section" id="experiences">
+  <div class="section-heading">
+    <span class="section-kicker">01 / EXPLORE THE POSSIBILITIES</span>
+    <h2>Three worlds.<br><span>Unlimited possibilities.</span></h2>
+    <p>Choose a direction. Discover what digital can become.</p>
+  </div>
+
+  <div class="world-grid">
+    <article class="world-card" tabindex="0">
+      <div class="world-number">01 — BUSINESS</div>
+
+      <div class="world-visual business-visual">
+        <div class="mini-building">⌂</div>
+        <div class="visual-orbit"></div>
+      </div>
+
+      <h3>Digital Experiences</h3>
+      <p>Websites that earn attention, build trust, and turn visitors into customers.</p>
+
+      <a href="#projectDetail" class="world-link" data-project="savoure">
+        EXPLORE THE POSSIBILITIES <span>↗</span>
+      </a>
+    </article>
+
+    <article class="world-card" tabindex="0">
+      <div class="world-number">02 — COMMERCE</div>
+
+      <div class="world-visual commerce-visual">
+        <div class="mini-bag">◇</div>
+        <div class="visual-orbit"></div>
+      </div>
+
+      <h3>Digital Commerce</h3>
+      <p>Interactive shopping experiences designed to make buying feel effortless.</p>
+
+      <a href="#projectDetail" class="world-link" data-project="commerce">
+        EXPLORE THE POSSIBILITIES <span>↗</span>
+      </a>
+    </article>
+
+    <article class="world-card" tabindex="0">
+      <div class="world-number">03 — INTELLIGENCE</div>
+
+      <div class="world-visual intelligence-visual">
+        <div class="mini-brain">✳</div>
+        <div class="visual-orbit"></div>
+      </div>
+
+      <h3>Intelligent Products</h3>
+      <p>Useful web applications that combine thoughtful design with smart functionality.</p>
+
+      <a href="#projectDetail" class="world-link" data-project="expense">
+        EXPLORE THE POSSIBILITIES <span>↗</span>
+      </a>
+    </article>
+  </div>
+
+  <!-- PROJECT DETAILS PANEL -->
+  <div
+    class="project-detail"
+    id="projectDetail"
+    hidden
+    aria-labelledby="projectDetailTitle"
+  >
+    <button
+      type="button"
+      class="project-detail-close"
+      id="closeProjectDetail"
+      aria-label="Close project details"
+    >×</button>
+
+    <div class="project-detail-visual" id="projectDetailVisual">
+      <span class="project-detail-visual-mark">EDI<span>A</span>LE.</span>
+    </div>
+
+    <div class="project-detail-copy">
+      <span class="section-kicker" id="projectDetailKicker">
+        PROJECT / 01
+      </span>
+
+      <h3 id="projectDetailTitle">Project Title</h3>
+
+      <p id="projectDetailDescription">
+        Project description will appear here.
+      </p>
+
+      <h4>THE PROBLEM</h4>
+      <p id="projectDetailProblem"></p>
+
+      <h4>BUILT WITH</h4>
+      <ul id="projectDetailTech"></ul>
+
+      <a
+        id="projectDetailLink"
+        class="contact-button"
+        href="#"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        VIEW LIVE PROJECT <span>↗</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="contact-section" id="contact">
+  <span class="section-kicker">HAVE SOMETHING IN MIND?</span>
+
+  <h2>Let's build something<br><span>worth experiencing.</span></h2>
+
+  <p>Tell me what you're imagining. Let's explore what we can create together.</p>
+
+  <a
+    class="contact-button"
+    href="https://github.com/eddysparkle"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    LET'S START A CONVERSATION <span>↗</span>
+  </a>
+
+  <div class="contact-orb"></div>
+</section>
+
+<footer class="site-footer">
+  <a href="#" class="logo">EDI<span>A</span>LE<span class="dot">.</span></a>
+  <span>INDEPENDENT DEVELOPER · DIGITAL CREATOR</span>
+  <span>© 2026 EDIALE</span>
+</footer>
+
+  </div>  <script src="./script.js"></script></body>
+</html>
