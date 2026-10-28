@@ -2,15 +2,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#08090f">
+  <meta name="description" content="Explore EDIALE — Beyond the Screen, a cinematic showcase of interactive websites, digital experiences, and JavaScript applications built by Ediale.">
   <title>EDIALE — Beyond the Screen</title>
   <link rel="stylesheet" href="./style.css">
 </head><body>
   <div class="universe">
     <div class="stars"></div>
     <div class="ambient ambient-one"></div>
-    <div class="ambient ambient-two"></div><nav class="navbar">
-  <a href="#" class="logo">EDI<span>A</span>LE<span class="dot">.</span></a>
-  <a href="#contact" class="nav-contact">LET'S CREATE <span>↗</span></a>
+    <div class="ambient ambient-two"></div><nav class="navbar" aria-label="Main navigation">
+  <a href="#" class="logo" aria-label="Ediale home">
+    EDI<span>A</span>LE<span class="dot">.</span>
+  </a>
+  <a href="#contact" class="nav-contact">
+    LET'S CONNECT <span>↗</span>
+  </a>
 </nav>
 
 <main class="hero">
@@ -31,7 +37,7 @@
       move businesses forward.
     </p>
 
-    <button class="enter-button" id="enterButton">
+    <button class="enter-button" id="enterButton" type="button">
       <span>ENTER THE EXPERIENCE</span>
       <span class="button-arrow">↗</span>
     </button>
@@ -95,7 +101,9 @@
       </div>
 
       <h3>Digital Experiences</h3>
-      <p>Websites that earn attention, build trust, and turn visitors into customers.</p>
+      <p>
+        Websites that earn attention, build trust, and turn visitors into customers.
+      </p>
 
       <a href="#projectDetail" class="world-link" data-project="savoure">
         EXPLORE THE POSSIBILITIES <span>↗</span>
@@ -111,7 +119,9 @@
       </div>
 
       <h3>Digital Commerce</h3>
-      <p>Interactive shopping experiences designed to make buying feel effortless.</p>
+      <p>
+        Interactive shopping experiences designed to make buying feel effortless.
+      </p>
 
       <a href="#projectDetail" class="world-link" data-project="commerce">
         EXPLORE THE POSSIBILITIES <span>↗</span>
@@ -127,7 +137,9 @@
       </div>
 
       <h3>Intelligent Products</h3>
-      <p>Useful web applications that combine thoughtful design with smart functionality.</p>
+      <p>
+        Useful web applications that combine thoughtful design with smart functionality.
+      </p>
 
       <a href="#projectDetail" class="world-link" data-project="expense">
         EXPLORE THE POSSIBILITIES <span>↗</span>
@@ -135,7 +147,7 @@
     </article>
   </div>
 
-  <!-- PROJECT DETAILS PANEL -->
+  <!-- Interactive project details -->
   <div
     class="project-detail"
     id="projectDetail"
@@ -161,7 +173,7 @@
       <h3 id="projectDetailTitle">Project Title</h3>
 
       <p id="projectDetailDescription">
-        Project description will appear here.
+        Select a world to explore the project.
       </p>
 
       <h4>THE PROBLEM</h4>
@@ -173,7 +185,7 @@
       <a
         id="projectDetailLink"
         class="contact-button"
-        href="#"
+        href="https://eddysparkle.github.io/savoure-restaurant/"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -186,24 +198,33 @@
 <section class="contact-section" id="contact">
   <span class="section-kicker">HAVE SOMETHING IN MIND?</span>
 
-  <h2>Let's build something<br><span>worth experiencing.</span></h2>
+  <h2>
+    Let's build something<br>
+    <span>worth experiencing.</span>
+  </h2>
 
-  <p>Tell me what you're imagining. Let's explore what we can create together.</p>
+  <p>
+    Interested in my work? Explore my main portfolio to discover more projects,
+    skills, and ways to connect.
+  </p>
 
   <a
     class="contact-button"
-    href="https://github.com/eddysparkle"
+    href="https://eddysparkle.github.io/Ediale-Portfolio/"
     target="_blank"
     rel="noopener noreferrer"
   >
-    LET'S START A CONVERSATION <span>↗</span>
+    EXPLORE MY PORTFOLIO <span>↗</span>
   </a>
 
   <div class="contact-orb"></div>
 </section>
 
 <footer class="site-footer">
-  <a href="#" class="logo">EDI<span>A</span>LE<span class="dot">.</span></a>
+  <a href="#" class="logo" aria-label="Ediale home">
+    EDI<span>A</span>LE<span class="dot">.</span>
+  </a>
+
   <span>INDEPENDENT DEVELOPER · DIGITAL CREATOR</span>
   <span>© 2026 EDIALE</span>
 </footer>
